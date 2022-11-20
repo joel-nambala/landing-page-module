@@ -1,0 +1,26 @@
+{
+  "name": "chrome-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page made with node modules and npm packages",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joel-nambala/landing-page-module.git"
+  },
+  "author": "Joel Nambala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joel-nambala/landing-page-module/issues"
+  },
+  "homepage": "https://github.com/joel-nambala/landing-page-module#readme",
+  "devDependencies": {
+    "parcel": "^2.8.0"
+  },
+  "dependencies": {
+    "core-js": "^3.26.1",
+    "regenerator-runtime": "^0.13.11"
+  }
+}
