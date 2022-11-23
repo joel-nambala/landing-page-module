@@ -13,9 +13,9 @@ const controller = async function () {
     // Set time
     setInterval(function () {
       const time = model.setTime();
-      const hour = new Date().getHours();
       app.displayTime(time);
 
+      const hour = new Date().getHours();
       if (hour === 23) {
         model.clearLocalStorage();
       }
