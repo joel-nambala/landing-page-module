@@ -62,6 +62,11 @@ export const setFocus = function (e) {
   }
 };
 
+export const clearLocalStorage = function () {
+  localStorage.removeItem('name');
+  localStorage.removeItem('focus');
+};
+
 // Get random quote
 export const randomQuote = async function () {
   try {

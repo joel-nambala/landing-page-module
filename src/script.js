@@ -5,6 +5,7 @@ import 'regenerator-runtime/runtime.js';
 import * as model from './model';
 import { app } from './views/view';
 import { momentumName, momentumFocus } from './dom';
+import { async } from 'regenerator-runtime';
 
 // Controller function
 const controller = async function () {
@@ -12,7 +13,12 @@ const controller = async function () {
     // Set time
     setInterval(function () {
       const time = model.setTime();
+      const hour = new Date().getHours();
       app.displayTime(time);
+
+      if (hour === 23) {
+        model.clearLocalStorage();
+      }
     }, 1000);
 
     // Set greet

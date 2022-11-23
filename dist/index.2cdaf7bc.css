@@ -23,6 +23,13 @@ body {
   padding: 2rem 3rem;
 }
 
+.momentum-link a {
+  color: #fff;
+  font-size: 1.6rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
 .momentum-nav {
   justify-content: space-between;
   align-items: center;

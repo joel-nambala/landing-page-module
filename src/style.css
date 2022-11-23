@@ -23,6 +23,13 @@ body {
   background-size: cover;
 }
 
+.momentum-link a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  font-size: 1.6rem;
+}
+
 .momentum-nav {
   display: flex;
   justify-content: space-between;
